@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <section class="sidebar">
+        <h3 class="sidebar__titulo">xFiscal</h3>
+        <div class="btn-inicio">
+            <a href="#" ><i class="fas fa-home"></i>Início</a>
+        </div>
+
+        <div class="notas">
+            <h4 id="emitir-notas" class="subtitulo"> Emitir Notas</h4>
+            <div id="emitir-notas-options" class="emitir-notas-options">
+                <label><input type="checkbox" class="checkbox"><div class="checkbox-button checkbox-button--verde"></div> Nota de Entrada</label>
+                <label><input type="checkbox" class="checkbox"><div class="checkbox-button checkbox-button--azul"></div> Nota de Saída</label>
+                <label><input type="checkbox" class="checkbox"><div class="checkbox-button"></div> Nota de Devolução</label>
+            </div>
+        </div>
+        <div class="controles-gerais">
+            <h4 class="subtitulo">Controle Geral</h4>
+            <ul>
+                <li class="link_icon"><i class="fas fa-users"></i><a  href="#">Clientes</a></li>
+                <li class="link_icon"><i class="fas fa-box"></i><a   href="#">Produtos</a></li>
+                <li class="link_icon"><i class="fas fa-truck"></i><a   href="#">Fornecedores</a></li>
+                <li class="link_icon"><i class="fas fa-shipping-fast"></i><a  href="#">Transportadoras</a></li>
+            </ul>
+        </div>
+        <div class="controles-fiscais">
+            <h4 class="subtitulo">Controle Fiscal</h4>
+            <ul>
+                <li><i class="fas fa-file-invoice"></i> <a href="#">NFe</a></li>
+                <li><i class="fas fa-receipt"></i> <a href="#">NFCe</a></li>
+            </ul>
+            
+            
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(206, 206, 250);
+}
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 1px 0 12px 0px rgba(44, 43, 43, 0.253); 
+}
+
+.sidebar__titulo{
+    text-align: center;
+    border-bottom: 1px solid rgba(85, 83, 83, 0.192);
+    padding: .8rem 0;
+    color: rgba(34, 33, 33, 0.863);
+}
+
+.btn-inicio{
+   background-color: rgb(56, 143, 150);
+   padding: .5rem 1rem;
+   margin: 1rem 0 2rem 0;
+   box-shadow: 1px 0 2px 0px rgba(44, 43, 43, 0.356); 
+   
+}
+.btn-inicio a{
+    color: white;
+}
+.notas{
+    margin-left: 1rem;
+}
+.subtitulo{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: rgba(34, 33, 33, 0.863);
+}
+#emitir-notas{
+    cursor: pointer;
+}
+.emitir-notas-options{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1.5rem 1rem;
+    gap: .7rem;
+}
+
+#emitir-notas-options{
+    display: none;
+}
+
+.controles-gerais, 
+.controles-fiscais{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem 0 1.5rem 1rem;
+}
+
+.controles-gerais a, 
+.controles-fiscais a{
+    color: rgba(34, 33, 33, 0.863);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li, li a{
+    transition: .4s ease-out ;
+}
+li:hover,
+li a:hover{
+    color:rgb(56, 143, 150);
+}
+
+.fas{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.fa-box{
+    margin-right: 16px;
+}
+
+
+/* checkbox button */
+
+.checkbox-button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid yellow; /* Bordas amarelas */
+    border-radius: 100%;
+    cursor: pointer;
+  }
+
+  .checkbox-button--verde{
+    border: 2px solid green; /* Bordas amarelas */
+  }
+  
+  .checkbox-button--azul{
+    border: 2px solid  blue; /* Bordas amarelas */
+  }
+
+ 
+  input[type="checkbox"] {
+    display: none;
+  }
+
+
+  
+  
+
+
+
